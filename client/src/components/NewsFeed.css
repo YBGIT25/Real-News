@@ -1,11 +1,15 @@
 /* NewsFeed.css */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 .news-feed-container {
     max-width: 700px;
     margin: 30px auto;
     padding: 20px;
-    background-color: #f4f6f8;
+    background-color: 	#f9f9f9;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    
   }
   
   .news-list {
@@ -18,4 +22,43 @@
     font-size: 1.2rem;
     color: #888;
   }
-  
+.title{
+  height: 3rem;
+  width: 100vw;
+  margin: 0 auto;
+  border: 2px solid gray;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  background-color: 	#1f2937;
+  color: 	#ffffff
+} 
+
+.content{
+  height: auto;
+  width: 60vw;
+    /* margin-left: 300px; */
+  border: 2px solid gray;
+  border-radius: 10px;
+  display: flex-column;
+  justify-content: center;
+    margin-top: 1rem;
+    font-family: montserrat ;
+  font-size: 1.2rem;
+}
+.real-time-news-feed{
+  display: flex;
+  justify-content: center;
+  background-color: 	#e5e7eb;
+}
+
+.actual-news{
+  margin-left: 2rem;
+  color: 	#111827;
+}
+
+.box{
+  display: flex;
+  justify-content: center;
+  color: 	#374151;
+}
