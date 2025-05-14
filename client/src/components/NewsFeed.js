@@ -1,6 +1,6 @@
 // client/src/components/NewsFeed.js
 import "./NewsFeed.css";
-import Background from "./Background.jsx";
+// import Background from "./Background.jsx";
 import "./Background.css";
 
 import React, { useEffect, useState } from "react";
@@ -49,7 +49,7 @@ function NewsFeed() {
     <div>
       <h1 className="title">📰 News App</h1>
       <div className="box">
-        <Background />
+        {/* <Background /> */}
       <div className="content">
         
         <h2 className="real-time-news-feed">Real-time News Feed</h2>
